@@ -3,7 +3,7 @@ version: '3.8'
 services:
   # 后端服务
   backend:
-    image: travel-agent-backend
+    image: 2544431082/travel-agent-backend:;atest
     container_name: travel-agent-backend
     ports:
       - "8000:8000"
@@ -31,7 +31,7 @@ services:
 
   # 前端服务
   frontend:
-    image: travel-agent-frontend
+    image: 2544431082/travel-agent-frontend:latest
     container_name: travel-agent-frontend
     ports:
       - "3000:80"
