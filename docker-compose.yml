@@ -3,7 +3,7 @@ version: '3.8'
 services:
   # 后端服务
   backend:
-    image: 2544431082/travel-agent-backend:;atest
+    image: 2544431082/travel-agent-backend:latest
     container_name: travel-agent-backend
     ports:
       - "8000:8000"
